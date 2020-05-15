@@ -18,7 +18,7 @@ http
       if (req.url == "/") {
         res.writeHead(200, headers);
         return res.end(
-          "Use the format http://thissite.com/proxy/http://site-i-want.com/ to access the proxy."
+          "Use the format http://thissite.com/breh/http://site-i-want.com/ to access the proxy."
         );
       } else {
         res.writeHead(404, headers);
